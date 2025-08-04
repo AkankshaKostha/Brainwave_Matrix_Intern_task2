@@ -1,0 +1,49 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: url("https://acropolium.com/img/articles/healthcare-management-system-development/img10.jpg") no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+    margin-top: 40px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+
+.container {
+    background: rgba(255, 255, 255, 0.85);
+    text-align: center;
+    padding: 30px;
+    border-radius: 12px;
+    width: 60%;
+    margin: 100px auto;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.container .btn {
+    display: block;
+    font-size: 18px;
+    padding: 15px 20px;
+    margin: 15px auto;
+    width: 80%;
+    background: linear-gradient(45deg, #28a745, #218838);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.container .btn:hover {
+    background: linear-gradient(45deg, #218838, #1e7e34);
+}
